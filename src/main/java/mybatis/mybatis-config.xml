@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+	
+<configuration>
+	
+	<mappers>
+		<mapper class="mybatis.MemberMapperAnno"/>
+		<mapper class="mybatis.RoomMapperAnno"/>
+		<mapper class="mybatis.ReservedMapperAnno"/>
+		<mapper class="mybatis.BookingMapperAnno"/>
+		<mapper class="mybatis.ReviewMapperAnno"/>
+		<mapper class="mybatis.AdminMapperAnno"/>
+		<mapper class="mybatis.WishMapperAnno"/>
+	</mappers>
+	
+</configuration>
